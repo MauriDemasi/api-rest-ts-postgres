@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsnd --respawn --clear src/server.ts",
     "start": "node dist/server.js",
-    "build": "rimraf ./dist && tsc"
+    "build": "rimraf ./dist && tsc && node dist/server.js"
   },
   "author": "Mauricio Demasi",
   "license": "ISC",
